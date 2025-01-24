@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <EditText
+        android:id="@+id/nombreEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"/>
+
+    <EditText
+        android:id="@+id/superficieEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Apellido"
+        android:layout_below="@id/nombreEditText"/>
+
+    <EditText
+        android:id="@+id/independienteEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="¿Supcripcion? (1 para Sí, 0 para No)"
+        android:layout_below="@id/superficieEditText"/>
+
+    <EditText
+        android:id="@+id/fechaFundacionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha de Suscripcion(YYYY-MM-DD)"
+        android:layout_below="@id/independienteEditText"/>
+
+    <Button
+        android:id="@+id/editButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Editar"
+        android:layout_below="@id/fechaFundacionEditText"/>
+
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar" />
+</LinearLayout>

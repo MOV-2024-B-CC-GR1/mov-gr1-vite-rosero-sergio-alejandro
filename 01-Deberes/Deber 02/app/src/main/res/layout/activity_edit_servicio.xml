@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edittext_nombre_ciudad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre" />
+
+    <EditText
+        android:id="@+id/edittext_poblacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Población" />
+
+    <EditText
+        android:id="@+id/edittext_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Área" />
+
+    <EditText
+        android:id="@+id/edittext_es_capital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Es Capital (true/false)" />
+
+    <EditText
+        android:id="@+id/edittext_fecha_establecimiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha de Establecimiento (YYYY-MM-DD)" />
+
+    <Button
+        android:id="@+id/button_save_ciudad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Ciudad" />
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar" />
+
+</LinearLayout>

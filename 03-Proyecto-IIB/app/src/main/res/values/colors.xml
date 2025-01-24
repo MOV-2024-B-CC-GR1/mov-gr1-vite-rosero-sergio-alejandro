@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#FFC107</color>
+    <color name="google">#DB4437</color>
+    <color name="facebook">#3B5998</color>
+    <color name="pinklight">#FFC0CB</color>
+    <color name="pinkbutton"> #f11489 </color>
+    <color name="pink">#f459ab</color>
+    <color name="gris">#c2afaa</color>
+</resources>

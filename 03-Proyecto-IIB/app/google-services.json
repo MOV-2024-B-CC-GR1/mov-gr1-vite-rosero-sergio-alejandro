@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "548218394838",
+    "project_id": "jlip-2024a-cc-gr1-proyecto2",
+    "storage_bucket": "jlip-2024a-cc-gr1-proyecto2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548218394838:android:3573b90337a41fc9c9d177",
+        "android_client_info": {
+          "package_name": "com.example.a2024accgr1jlip"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6QdvMMTnHJVVR4FSiqOio0e5diAfWLd8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
